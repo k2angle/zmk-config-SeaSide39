@@ -86,7 +86,7 @@
         MOUSE {
             bindings = <
 &trans  &trans  &trans  &trans  &trans                                     &kp RS(RC(RG(NUMBER_4)))  &kp RG(C)            &kp RG(V)  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                                     &kp RG(R)                 &mkp MB1             &mkp MB2   &trans  &trans
+&trans  &trans  &trans  &trans  &trans                                     &kp RG(R)                 &mkp MB1             &mkp MB2   &trans  &kp ESCAPE
 &trans  &trans  &trans  &trans  &trans                                     &kp RC(LEFT_ARROW)        &kp RC(RIGHT_ARROW)  &trans     &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &kp RG(RIGHT_BRACKET)  &kp RG(LEFT_BRACKET)                                              &trans
             >;

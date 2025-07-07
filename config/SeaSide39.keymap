@@ -65,10 +65,10 @@
 
         NUM {
             bindings = <
-&trans           &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PERIOD                        &kp F6  &kp F7          &kp F8          &kp F9           &kp F10
-&trans           &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK                      &trans  &trans          &kp UP_ARROW    &trans           &trans
-&kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp SLASH                         &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
-&trans           &trans           &trans           &kp MINUS        &kp PLUS      &trans      &trans  &trans                                                   &trans
+&trans           &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PERIOD                        &kp F6              &kp F7               &kp F8          &kp F9           &kp F10
+&trans           &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK                      &kp RA(LEFT_ARROW)  &kp RA(RIGHT_ARROW)  &kp UP_ARROW    &kp C_VOLUME_UP  &kp C_VOLUME_DOWN
+&kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp SLASH                         &trans              &kp LEFT_ARROW       &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
+&trans           &trans           &trans           &kp MINUS        &kp PLUS      &trans      &trans  &trans                                                                    &trans
             >;
         };
 
@@ -85,10 +85,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                                     &kp RS(RC(RG(NUMBER_4)))  &trans               &trans    &trans  &trans
-&trans  &trans  &trans  &trans  &trans                                     &kp RG(R)                 &mkp MB1             &mkp MB2  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                                     &kp RC(LEFT_ARROW)        &kp RC(RIGHT_ARROW)  &trans    &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &kp RG(RIGHT_BRACKET)  &kp RG(LEFT_BRACKET)                                             &trans
+&trans  &trans  &trans  &trans  &trans                                     &kp RS(RC(RG(NUMBER_4)))  &kp RG(C)            &kp RG(V)  &trans  &trans
+&trans  &trans  &trans  &trans  &trans                                     &kp RG(R)                 &mkp MB1             &mkp MB2   &trans  &trans
+&trans  &trans  &trans  &trans  &trans                                     &kp RC(LEFT_ARROW)        &kp RC(RIGHT_ARROW)  &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &kp RG(RIGHT_BRACKET)  &kp RG(LEFT_BRACKET)                                              &trans
             >;
         };
 

@@ -31,6 +31,7 @@ macros {
     alt_right_arrow: alt_right_arrow {
         compatible = "zmk,behavior-macro";
         label = "ALT_RIGHT_ARROW";
+        #binding-cells = <0>;
         bindings = <&macro_tap &kp LALT &kp RIGHT_ARROW>;
     };
 };
